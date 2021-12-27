@@ -1,0 +1,32 @@
+¿Cuáles son las ceremonias más importantes de un Sprint y cuál es la idea de cada una?
+
+- Sprint Planning: Reunión que se realiza al comienzo de cada Sprint donde participa el equipo Scrum al completo.
+- Daily Scrum: Reunión diaria de 15 minutos en la que participa exclusivamente el Development Team.
+- Sprint Review: Reunión que ocurre al final del Sprint, generalmente el último viernes del Sprint, donde el product owner y el Develpment Team presentan a los stakeholders el incremento terminado para su inspección y adaptación correspondientes.
+- Sprint Retrospective: La retrospectiva ocurre al final del Sprint, justo después del Sprint Review.
+- Sprint Grooming o Refinement: Es una práctica recomendada para asegurar que éste siempre esté preparado.
+
+
+¿Qué son los Wireframes? Nombra al menos una herramienta que podamos utilizar.
+
+Es una guía visual que representa el esqueleto o estructura visual de un sitio web.​ 
+- whimsical
+- Figma
+
+Explicar la diferencia entre var, let y const. Y dar un ejemplo en qué caso se utilizará.
+
+CONST: Es una constante la cual NO cambiara su valor en ningún momento en el futuro. 
+VAR: Es una variable que SI puede cambiar su valor y su scope es local. 
+LET: Es una variable que también podra cambiar su valor, pero solo vivirá(Funcionara) en el bloque donde fue declarada.
+
+¿Cuáles son los tres comandos que se pueden utilizar para crear una nueva rama llamada rama-1?
+- git branch rama-1
+
+Explicar la diferencia entre git merge y git rebase.
+El rebase unifica las ramas perdiendo el historial de los commit y el merge no.
+
+¿Qué es el Virtual DOM?
+Un DOM virtual es una representación de JavaScript ligera del DOM que se utiliza en marcos web declarativos como React, Vue.js y Elm. Actualizar el DOM virtual es comparativamente más rápido que actualizar el DOM real. 
+
+Dado el siguiente codePen, el cual solo tiene un HTML, por medio de css llegar a esta respuesta. Imagen. (Para mostrar los servicios debes usar CSS Flexbox o CSS Grid).
+

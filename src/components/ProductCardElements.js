@@ -2,19 +2,23 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Main = styled.div`
-  display: inline-block;
+  display: flex;
   text-align: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
 `;
 
 export const MainContainer = styled.div`
-  display: inline-block;
+  display: flex;
   width: 450px;
   margin-left: 15px;
-  flex-wrap: nowrap;
+  /* flex-wrap: wrap; */
+  justify-content: center;
 `;
 
 export const Card = styled.div`
-  width: 400px;
+  width: 100%;
   height: auto;
   background-color: white;
   cursor: pointer;

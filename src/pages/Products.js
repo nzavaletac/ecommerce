@@ -3,6 +3,7 @@ import axios from "axios";
 import ProductCard from "../components/ProductCard";
 import Navbar from "../components/Navbar";
 import { Main } from "../components/ProductCardElements";
+import Footer from "../components/Footer";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -21,6 +22,7 @@ const Products = () => {
       <Main>
         <ProductCard products={products} />
       </Main>
+      <Footer />
     </>
   );
 };

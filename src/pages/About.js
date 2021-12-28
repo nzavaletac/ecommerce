@@ -11,6 +11,7 @@ import {
   Email,
   Github,
 } from "../components/AboutElements";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import photo from "../images/moe.jpg";
 
@@ -43,6 +44,7 @@ const About = () => {
         </ContainerInformation>
         <br />
       </Container>
+      <Footer />
     </>
   );
 };

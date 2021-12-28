@@ -15,6 +15,7 @@ import {
   Add,
 } from "../components/DetailsElements";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Details = () => {
   const { productId } = useParams();
@@ -61,6 +62,7 @@ const Details = () => {
           </p>
         </ContainerDetail>
       </Container>
+      <Footer />
     </>
   );
 };

@@ -15,6 +15,7 @@ export const Links = styled.a`
   margin: 0px 25px;
   text-decoration: none;
   color: #fff;
+  padding: 5px;
   &:hover {
     text-decoration: underline;
   }

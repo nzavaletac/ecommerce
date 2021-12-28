@@ -38,7 +38,7 @@ const About = () => {
             <div className="skills">React</div>
           </div>
           <Email>nzavaletac@gmail.com</Email>
-          <Github href="https://github.com/nzavaletac">
+          <Github href="https://github.com/nzavaletac/ecommerce">
             <FaGithub size="3em" />
           </Github>
         </ContainerInformation>

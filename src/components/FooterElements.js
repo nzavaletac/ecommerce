@@ -17,6 +17,6 @@ export const Links = styled.a`
   color: #fff;
   padding: 5px;
   &:hover {
-    text-decoration: 5px underline #7b39ff;
+    text-decoration: 2px underline #7b39ff;
   }
 `;

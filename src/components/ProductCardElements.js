@@ -48,7 +48,8 @@ export const Image = styled.img`
 
 export const Price = styled.p`
   padding: 6px 10px;
-  background-color: #e94a3e;
+  /* background-color: #e94a3e; */
+  background-color: #7b39ff;
   color: #eee;
   position: absolute;
   bottom: 0;

@@ -35,7 +35,8 @@ export const Title = styled.h2`
 export const Category = styled.div`
   margin: 15px 0;
   border-radius: 15px;
-  border: 1px solid gainsboro;
+  /* border: 1px solid gainsboro; */
+  border: 1px solid #7b39ff;
   width: fit-content;
   padding: 5px 15px;
 `;

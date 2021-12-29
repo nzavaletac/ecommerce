@@ -18,20 +18,20 @@ import {
 } from "./ProductCardElements";
 
 const ProductCard = ({ products }) => {
-  return products.map(({ id, title, image }) => (
+  return products.map(({ id, title, image, price }) => (
     <>
       <MainContainer>
         <Card key={id}>
           <CardHeader>
             <Image src={image} />
-            {/* <Price>S/ {price}</Price> */}¿
+            <Price>S/ {price}</Price>
             {/* <Count>Count {rating.count}</Count> */}
             {/* <Rate>Rate {rating.rate}</Rate> */}
           </CardHeader>
           <CardBody>
-            <Id>Id: {id}</Id>
+            {/* <Id>Id: {id}</Id> */}
             <CardTitle>{title}</CardTitle>
-            <Detail to={`/products/${id}`}>Got To Detail</Detail>
+            <Detail to={`/products/${id}`}>Go To Detail</Detail>
             {/* <CardCategory>Category: {category}</CardCategory> */}
             {/* <CardDescription>{description}</CardDescription> */}
           </CardBody>

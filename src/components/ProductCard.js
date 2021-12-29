@@ -31,7 +31,7 @@ const ProductCard = ({ products }) => {
           <CardBody>
             <Id>Id: {id}</Id>
             <CardTitle>{title}</CardTitle>
-            <Detail to={`/products/${id}`}>Product Detail</Detail>
+            <Detail to={`/products/${id}`}>Got To Detail</Detail>
             {/* <CardCategory>Category: {category}</CardCategory> */}
             {/* <CardDescription>{description}</CardDescription> */}
           </CardBody>
